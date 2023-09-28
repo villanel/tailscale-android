@@ -77,11 +77,7 @@ release_aar:
 
 $(RELEASE_AAB): release_aar
 	(cd android && ./gradlew bundlePlayRelease)
-	mv ./android/build/outputs/bundle/playRelease/android-play-release.aab $@
-
-release: $(RELEASE_AAB)
-	jarsigner -sigalg SHA256withRSA -digestalg SHA-256 -keystore $(KEYSTORE) $(RELEASE_AAB) $(KEYSTORE_ALIAS)
-
+	mv ./android/build/outputs/bundle/playRelease/an
 install: $(DEBUG_APK)
 	adb install -r $(DEBUG_APK)
 
