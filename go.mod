@@ -46,14 +46,7 @@ require (
 	github.com/tailscale/golang-x-crypto v0.0.0-20220428210705-0b941c09a5e1 // indirect
 	github.com/tailscale/goupnp v1.0.1-0.20210804011211-c64d0f06ea05 // indirect
 	github.com/tailscale/netlink v1.1.1-0.20211101221916-cabfb018fe85 // indirect
-	github.com/tcnksm/go-httpstat v0.2.0 // indirect
-	github.com/u-root/u-root v0.8.0 // indirect
-	github.com/u-root/uio v0.0.0-20210528151154-e40b768296a7 // indirect
-	github.com/vishvananda/netlink v1.1.1-0.20211118161826-650dca95af54 // indirect
-	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
-	go4.org/intern v0.0.0-20211027215823-ae77deb06f29 // indirect
-	go4.org/mem v0.0.0-20210711025021-927187094b94 // indirect
-	go4.org/unsafe/assume-no-moving-gc v0.0.0-20211027215541-db492cf91b37 // indirect
+	github.com/tcnksm/go-httpstat v0.2.0 // ind
 	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f // indirect
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
